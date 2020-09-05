@@ -1,5 +1,5 @@
 import React from "react";
-export function Pet({ name, animal, food }) {
+const Pet = ({ name, animal, food }) => {
   return (
     <div>
       <h1>{name}</h1>
@@ -7,4 +7,6 @@ export function Pet({ name, animal, food }) {
       <h3>{food}</h3>
     </div>
   );
-}
+};
+
+export default Pet;
